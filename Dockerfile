@@ -5,7 +5,7 @@
 # You can find the source code here:
 # https://github.com/adomi-io/odoo
 
-ARG ODOO_BASE_IMAGE=ghcr.io/adomi-io/odoo:19.0
+ARG ODOO_BASE_IMAGE=ghcr.io/adomi-io/odoo-community-base:latest
 
 
 FROM alpine:3.20 AS oca_base
